@@ -5,7 +5,7 @@
 2. Project Structure
 3. Environment Variables
 
-### 1. Instalación
+### 1. Installation
 
 It's necessary to have both Nodejs and npm installed.
 These can be installed and administered with NVM: 1ttps://github.com/nvm-sh/nvm.
