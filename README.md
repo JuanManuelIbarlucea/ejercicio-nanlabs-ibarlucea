@@ -4,6 +4,8 @@
 1. Installation
 2. Project Structure
 3. Environment Variables
+4. Tests
+
 
 ### 1. Installation
 
@@ -39,3 +41,6 @@ TRELLO_BOARD_ID="example.board.id"
 
 Then you just edit `TRELLO_BOARD_ID` with whatever Trello Board you decide to use for the task management.
 
+## 4. Tests
+
+Tests can be run with the `npm run test` which runs the tests once or with `npm run test:watch` which runs the test each time theres a change in the project.

@@ -6,12 +6,14 @@ const express = require('express');
 
 
 const app = express();
-const port = process.env.port || 9000;
+const port = process.env.port || 9001;
 
 require("./config/express")(app);
 require('./routes')(app)
 
 
-app.listen(port, () =>
+const server = app.listen(port, () =>
   console.log(`Express server listening on ${port} port`)
 );
+
+module.exports = {app, server};
